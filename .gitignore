@@ -1,0 +1,19 @@
+# Entorno virtual de Python: se puede recrear, no se sube
+.venv/
+
+# Archivos que Python genera solo al ejecutar código
+__pycache__/
+*.pyc
+
+# Secretos (claves de API). NUNCA se suben
+.env
+
+# Datos locales que va a generar el proyecto
+data/
+*.db
+
+# Configuración personal de VS Code
+.vscode/
+
+# Archivos personales
+Last.fm music:
